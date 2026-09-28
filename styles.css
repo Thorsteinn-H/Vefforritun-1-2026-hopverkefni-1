@@ -1,0 +1,22 @@
+/**
+ * CSS fyrir hópverkefni 1.
+ * Búið til af Þorsteini
+ */
+
+/*
+ * Aðal grunnstillingar
+*/
+@import url("./styles/main.css");
+
+/* 
+ * Mikilvægir hlutir
+*/
+@import url("./styles/navbar.css");
+@import url("./styles/footer.css");
+
+/*
+ * Síður sjálfar
+*/
+@import url("./styles/index.css");
+@import url("./styles/login.css");
+@import url("./styles/teaminfo.css");

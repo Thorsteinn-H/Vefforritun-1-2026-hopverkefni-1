@@ -8,20 +8,30 @@
   </head>
   <body>
     <header>
-      <h1>Innskráning</h1>
+      <h1>Skráðu þig inn</h1>
     </header>
     <main>
+        <p>Velkomin aftur í Forritið</p>
       <form>
         <p>
-          <label for="username">Notandanafn</label>
-          <input id="username" name="username" type="text" />
+          <label for="email">Netfang</label>
+          <input id="email" name="email" type="text" placeholder="Skráðu netfangið þitt" />
         </p>
         <p>
           <label for="password">Lykilorð</label>
-          <input id="password" name="password" type="password" />
+          <input id="password" name="password" type="password" placeholder="••••••••" />
         </p>
-        <button type="submit">Skrá inn</button>
+        <input type="checkbox">
+        Mundu eftir mér í 30 daga
+        <a href="./login.html" target="_blank">Gleymt lykilorð</a>  
+        <div>
+        <button type="submit">Innskráning</button>
+        </div>
+        <button type="submit">Innskráning með Google</button>
+
       </form>
+      <p>Ekki með aðgang? <a href="./login.html" target="_blank">Skráðu þig</a>
+     </p>
     </main>
   </body>
 </html>

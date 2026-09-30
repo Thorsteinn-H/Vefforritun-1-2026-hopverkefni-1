@@ -10,7 +10,7 @@
     "lint:fix": "stylelint '**/*.css' --fix"
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
+    "live-server": "^1.2.0",
     "sass": "^1.93.2",
     "stylelint": "^16.24.0",
     "stylelint-config-sass-guidelines": "^12.1.0",

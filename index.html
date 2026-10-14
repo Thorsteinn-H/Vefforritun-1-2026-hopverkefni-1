@@ -6,7 +6,7 @@
     <title>Forsíða</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body class="home-page">
     <nav class="site-nav" aria-label="Aðalvalmynd">
       <div class="nav-left">
         <div class="nav-brand">
@@ -24,142 +24,188 @@
         <a class="nav-signup" href="/sites/login.html">Skráðu þig</a>
       </div>
     </nav>
-    <header>
+    <header class="home-page-title">
       <h1>Hópverkefni 1</h1>
     </header>
     <main>
-      <h2>Forritið hjálpar þér við daglegt líf</h2>
-      <p>
-        Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu daglega
-        lífi. Yfir 10.000 notendur um allan heim.
-      </p>
-      <button>Skráðu þig í Forritið</button>
-      <img src="/pictures/Screen mockup (REPLACE FILL).png" />
-      Virkni
-      <h2>Forrit sem virkar eins og það sé úr framtíðinni</h2>
-      <p>
-        Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu daglega
-        lífi. Yfir 10.000 notendur um allan heim.
-      </p>
-      <!--6 cards; 3 in a row on desktop, 1 on mobile-->
+      <section class="hero-section">
+        <h2>Forritið hjálpar þér við daglegt líf</h2>
+        <p>
+          Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu daglega
+          lífi. Yfir 10.000 notendur um allan heim.
+        </p>
+        <button>Skráðu þig í Forritið</button>
+        <img src="/pictures/Screen mockup (REPLACE FILL).png" alt="" />
+      </section>
 
-      <img src="/pictures/mail_icon.png" />
-      <h3>Öll skilaboð á einum stað</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae impedit
-        illum dignissimos exercitationem, quam quo consectetur recusandae
-        quaerat iste est laudantium praesentium pariatur possimus quos? Velit
-        eligendi illo culpa officiis.
-      </p>
+      <section class="features-section">
+        <div class="section-intro">
+          <p class="eyebrow">Virkni</p>
+          <h2>Forrit sem virkar eins og það sé úr framtíðinni</h2>
+          <p>
+            Kröftugt og sjálfvirkt forrit sem aðstoðar þig við allt í þínu
+            daglega lífi. Yfir 10.000 notendur um allan heim.
+          </p>
+        </div>
+        <!--6 cards; 3 in a row on desktop, 1 on mobile-->
+        <div class="feature-grid">
+          <article class="feature-card">
+            <img src="/pictures/mail_icon.png" alt="" />
+            <h3>Öll skilaboð á einum stað</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              impedit illum dignissimos exercitationem, quam quo consectetur
+              recusandae quaerat iste est laudantium praesentium pariatur
+              possimus quos? Velit eligendi illo culpa officiis.
+            </p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/electricity_icon.png" alt="" />
+            <h3>Svarar öllum þínum spurningum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/graph_icon.png" alt="" />
+            <h3>Sér um verkefnalista</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/smile_icon.png" alt="" />
+            <h3>Sér um samskipti</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/connection_icon.png" alt="" />
+            <h3>Tengist öðrum tólum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/chat_icon.png" alt="" />
+            <h3>Kröftugt teymi aðstoðar þig</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+          </article>
+        </div>
+        <!--Cards end-->
+      </section>
 
-      <img src="/pictures/electricity_icon.png" />
-      <h3>Svarar öllum þínum spurningum</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
+      <section class="testimonial-section">
+        <div class="testimonial-brand">
+          <img src="/pictures/Sisyphus_logo.png" alt="" />
+          <span>Sisyphus</span>
+        </div>
+        <h2>
+          Við höfum gjörbreytt fyrirtækinu okkar með því að byrja að nota
+          Forritið
+        </h2>
+        <img
+          class="testimonial-avatar"
+          src="/pictures/team member_1.png"
+          alt=""
+        />
+        <p>
+          Jóna Jóns <br />
+          Framkvæmdarstjóri, Sisyphus
+        </p>
+      </section>
 
-      <img src="/pictures/graph_icon.png" />
-      <h3>Sér um verkefnalista</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
+      <section class="business-section">
+        <div class="section-intro">
+          <p class="eyebrow">Virkni fyrir fyrirtæki</p>
+          <h2>Virkni fyrir fyrirtæki af öllum stærðum</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quidem
+            excepturi eligendi asperiores explicabo sunt laudantium possimus
+            minima, recusandae cupiditate aperiam, quasi magnam tenetur
+            reiciendis placeat. Ut amet fuga mollitia?
+          </p>
+        </div>
+        <div class="business-media">
+          <img
+            class="business-desktop"
+            src="pictures/3_2 screen mockup.png"
+            alt=""
+          />
+          <img
+            class="business-phone"
+            src="pictures/iPhone 12 Pro mockup.png"
+            alt=""
+          />
+          <!--fá iphone fyrir framan hitt vinstra megin-->
+          <div></div>
+        </div>
+        <!--3 cards-->
+        <div class="business-grid">
+          <article class="feature-card">
+            <img src="/pictures/mail_icon.png" alt="" />
+            <h3>Allt teymið á sama stað</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+            <p class="learn-more">Læra meira →</p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/electricity_icon.png" alt="" />
+            <h3>Svör, strax</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+            <p class="learn-more">Læra meira →</p>
+          </article>
+          <article class="feature-card">
+            <img src="/pictures/graph_icon.png" alt="" />
+            <h3>Skýrslur fyrir allt</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              doloremque excepturi tempora perferendis dolorem dolores sapiente
+              rem nostrum non cum est voluptate magni, officia ea inventore iste
+              libero sint eum!
+            </p>
+            <p class="learn-more">Læra meira →</p>
+          </article>
+        </div>
+      </section>
 
-      <img src="/pictures/smile_icon.png" />
-      <h3>Sér um samskipti</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
-
-      <img src="/pictures/connection_icon.png" />
-      <h3>Tengist öðrum tólum</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
-
-      <img src="/pictures/chat_icon.png" />
-      <h3>Kröftugt teymi aðstoðar þig</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
-
-      <!--Cards end-->
-
-      <img src="/pictures/Sisyphus_logo.png" /> Sisyphus
-      <h2>
-        Við höfum gjörbreytt fyrirtækinu okkar með því að byrja að nota Forritið
-      </h2>
-      <img src="/pictures/team member_1.png" />
-      <p>
-        Jóna Jóns <br />
-        Framkvæmdarstjóri, Sisyphus
-      </p>
-
-      <h3>Virkni fyrir fyrirtæki</h3>
-      <h2>Virkni fyrir fyrirtæki af öllum stærðum</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quidem
-        excepturi eligendi asperiores explicabo sunt laudantium possimus minima,
-        recusandae cupiditate aperiam, quasi magnam tenetur reiciendis placeat.
-        Ut amet fuga mollitia?
-      </p>
-
-      <img src="pictures/3_2 screen mockup.png" />
-      <img src="pictures/iPhone 12 Pro mockup.png" />
-      <!--fá iphone fyrir framan hitt vinstra megin-->
-      <div></div>
-      <!--3 cards-->
-
-      <img src="/pictures/mail_icon.png" />
-      <h3>Allt teymið á sama stað</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
-      <p>Læra meira →</p>
-
-      <img src="/pictures/electricity_icon.png" />
-      <h3>Svör, strax</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
-      <p>Læra meira →</p>
-
-      <img src="/pictures/graph_icon.png" />
-      <h3>Skýrslur fyrir allt</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        doloremque excepturi tempora perferendis dolorem dolores sapiente rem
-        nostrum non cum est voluptate magni, officia ea inventore iste libero
-        sint eum!
-      </p>
-      <p>Læra meira →</p>
-
-      <h2>Prófaðu í dag</h2>
-      <p>Vertu með í framtíðinni, notaðu Forritið.</p>
-      <button>Læra meira</button>
-      <!--hvítur bakgrunnur-->
-      <button>Skráðu þig</button>
-      <!--Fjólublár bakgrunnur-->
+      <section class="cta-section">
+        <h2>Prófaðu í dag</h2>
+        <p>Vertu með í framtíðinni, notaðu Forritið.</p>
+        <div class="cta-actions">
+          <button>Læra meira</button>
+          <!--hvítur bakgrunnur-->
+          <button>Skráðu þig</button>
+          <!--Fjólublár bakgrunnur-->
+        </div>
+      </section>
     </main>
 
     <footer>

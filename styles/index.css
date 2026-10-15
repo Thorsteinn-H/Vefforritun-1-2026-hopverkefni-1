@@ -119,10 +119,9 @@
   width: 40px;
   height: 40px;
   margin: 0 auto 8px;
-  padding: 11px;
   border-radius: 50%;
   background: #f7f1ff;
-  object-fit: contain;
+  object-fit: none;
 }
 
 .feature-card h3 {

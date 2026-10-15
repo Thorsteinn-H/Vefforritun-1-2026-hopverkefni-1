@@ -60,7 +60,21 @@ footer h2 {
   font-size: 12px;
 }
 
-@media (width <= 420px) {
+.footer-copyright-mobile {
+  display: none;
+}
+
+@media (width < 500px) {
+  .footer-copyright-desktop {
+    display: none;
+  }
+
+  .footer-copyright-mobile {
+    display: inline;
+  }
+}
+
+@media (width < 500px) {
   footer {
     padding-right: 16px;
     padding-left: 16px;
@@ -69,5 +83,11 @@ footer h2 {
   footer .content {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 }

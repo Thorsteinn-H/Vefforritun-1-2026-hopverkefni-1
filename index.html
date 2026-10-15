@@ -5,23 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Forsíða</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./javascript/burgerMenu.js" defer></script>
   </head>
   <body class="home-page">
-    <script>
-      function burgerMenu() {
-        const menu = document.getElementById("myLinks");
-        const button = document.getElementById("menuToggle");
-        const isOpen = button.getAttribute("aria-expanded") === "true";
-
-        menu.hidden = isOpen;
-        button.setAttribute("aria-expanded", String(!isOpen));
-        button.setAttribute(
-          "aria-label",
-          isOpen ? "Opna valmynd" : "Loka valmynd",
-        );
-        button.classList.toggle("is-open", !isOpen);
-      }
-    </script>
     <nav class="mobile-nav" aria-label="Farsímavalmynd">
       <div class="mobile-nav-top">
         <div class="mobile-brand">
@@ -35,7 +21,6 @@
           aria-label="Opna valmynd"
           aria-controls="myLinks"
           aria-expanded="false"
-          onclick="burgerMenu()"
         >
           <span></span>
           <span></span>

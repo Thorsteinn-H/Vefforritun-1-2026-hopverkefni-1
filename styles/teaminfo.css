@@ -1,3 +1,7 @@
+.teaminfo-page {
+  margin: 0;
+}
+
 .team-page {
   width: min(85%, 1100px);
   margin: 0 auto;

@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Um teymið</title>
     <link rel="stylesheet" href="../styles.css" />
+    <script src="../javascript/burgerMenu.js" defer></script>
   </head>
-  <body>
+  <body class="teaminfo-page">
+    <nav class="mobile-nav" aria-label="Farsímavalmynd">
+      <div class="mobile-nav-top">
+        <div class="mobile-brand">
+          <img src="/pictures/logo.png" width="36" height="36" alt="" />
+          <strong>Forritið</strong>
+        </div>
+        <button
+          class="mobile-menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Opna valmynd"
+          aria-controls="myLinks"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile-menu-links" id="myLinks" hidden>
+        <div class="mobile-menu-pages">
+          <a href="/index.html">Forsíða</a>
+          <a href="/sites/teaminfo.html">Teymið</a>
+          <a href="/index.html">Forritið</a>
+        </div>
+        <div class="mobile-menu-actions">
+          <a class="nav-signup" href="/sites/login.html">Skráðu þig</a>
+          <a class="mobile-login" href="/sites/login.html">Innskráning</a>
+        </div>
+      </div>
+    </nav>
     <nav class="site-nav" aria-label="Aðalvalmynd">
       <div class="nav-left">
         <div class="nav-brand">

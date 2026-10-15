@@ -38,5 +38,6 @@ npm run lint
 ## Hópmeðlimir
 
 | Nafn       | HÍ-notandanafn  | GitHub-notandanafn |
+
 | Þorsteinn  | the85@hi.is     | thorsteinn         |
 

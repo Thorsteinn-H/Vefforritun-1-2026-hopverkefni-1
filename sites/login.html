@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Innskráning</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="login-page">
+    <nav class="site-nav" aria-label="Aðalvalmynd">
+      <div class="nav-left">
+        <div class="nav-brand">
+          <img src="/pictures/logo.png" width="25" height="25" alt="" />
+          <strong>Forritið</strong>
+        </div>
+        <div class="nav-links">
+          <a href="/index.html">Forsíða</a>
+          <a href="/sites/teaminfo.html">Teymið</a>
+          Forritið
+        </div>
+      </div>
+      <div class="nav-actions">
+        <a href="/sites/login.html">Innskráning</a>
+        <a class="nav-signup" href="/sites/login.html">Skráðu þig</a>
+      </div>
+    </nav>
+    <main class="login-panel">
+      <img class="login-logo" src="../pictures/logo.png" width="40" height="40" alt="Forritið" />
+      <h1>Skráðu þig inn</h1>
+      <p class="login-intro">Velkomin aftur í Forritið.</p>
+
+      <div class="login-fields">
+        <label>Netfang</label>
+        <input id="email" type="email" placeholder="Skráðu netfangið þitt" />
+
+        <label>Lykilorð</label>
+        <input id="password" type="password" placeholder="••••••••" />
+      </div>
+
+      <div class="login-options">
+        <label class="remember-option">
+          <input type="checkbox" />
+          <span>Mundu eftir mér í 30 daga</span>
+        </label>
+        <button class="login-link" type="button">Gleymt lykilorð</button>
+      </div>
+
+      <div class="login-actions">
+        <button class="login-submit" type="button">Innskráning</button>
+        <button class="google-submit" type="button">
+          <span class="google-mark" aria-hidden="true">G</span>
+          <span>Innskráning með Google</span>
+        </button>
+      </div>
+
+      </form>
+      <p>Ekki með aðgang? <a href="./login.html" target="_blank">Skráðu þig</a>
+     </p>
+    </main>
+  </body>
+</html>

@@ -16,8 +16,8 @@ footer .content {
 footer ul {
   display: grid;
   gap: 8px;
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -28,9 +28,9 @@ footer li {
 
 footer h2 {
   margin: 0 0 10px;
-  color: #777;
   font-size: 10px;
   font-weight: 400;
+  color: #777;
 }
 
 .footer-bottom {
@@ -38,15 +38,15 @@ footer h2 {
   align-items: center;
   justify-content: space-between;
   max-width: 805px;
-  margin: 0 auto;
   padding-top: 20px;
+  margin: 0 auto;
   border-top: 1px solid #e7e7e7;
 }
 
 .footer-brand {
   display: flex;
-  align-items: center;
   gap: 6px;
+  align-items: center;
   font-size: 14px;
 }
 
@@ -56,8 +56,8 @@ footer h2 {
 }
 
 .footer-copyright {
-  color: #777;
   font-size: 12px;
+  color: #777;
 }
 
 .footer-copyright-mobile {
@@ -87,7 +87,7 @@ footer h2 {
 
   .footer-bottom {
     flex-direction: column;
-    align-items: flex-start;
     gap: 12px;
+    align-items: flex-start;
   }
 }

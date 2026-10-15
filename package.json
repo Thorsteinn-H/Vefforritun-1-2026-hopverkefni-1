@@ -6,13 +6,15 @@
     "dev": "parcel index.html 'sites/*.html' --lazy --no-cache",
     "build": "parcel build index.html 'sites/*.html' --no-cache",
     "format": "prettier \"**/*.{css,html}\" --write",
-    "lint": "stylelint '**/*.css'",
-    "lint:fix": "stylelint '**/*.css' --fix"
+    "lint": "stylelint **/*.css",
+    "lint:fix": "stylelint **/*.css --fix"
   },
   "devDependencies": {
     "live-server": "^1.2.0",
+    "parcel": "^2.16.4",
     "sass": "^1.93.2",
     "stylelint": "^16.24.0",
+    "stylelint-config-recess-order": "^7.8.0",
     "stylelint-config-sass-guidelines": "^12.1.0",
     "stylelint-config-standard": "^39.0.0"
   }

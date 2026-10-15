@@ -3,3 +3,5 @@ node_modules/
 fyrirmynd/
 efni/
 myndir/
+.parcel-cache/
+dist/
